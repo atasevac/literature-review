@@ -87,8 +87,8 @@ Search across cognitive neuroscience, computational cognitive neuroscience, cogn
 
 Table of Contents:
 1. Introduction
-2. Event segmentation and Memory
-3. Emotional Arousal and Memory
+2. Event Segmentation in Perception and Memory
+3. Emotional Arousal in Perception and Memory
 4. Neural mechanisms: LC, amygdala, hippocampus, and cortical networks
 5. Interactions Between Event segmentation and Emotional Arousal
 6. Remembering, Reconstructing, and Narrating 
