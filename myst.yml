@@ -5,15 +5,32 @@ project:
   title: "Event Selection in Autobiographical Narratives: The Roles of Event Segmentation and Emotional Arousal"
   subtitle: A Reproducible Computational Review
   description: >
-    How do event segmentation and emotional arousal during an experience shape which events are included in later autobiographical narratives of that experience?
+    A critical review of how event segmentation and emotional arousal during
+    experience shape which events are included in later autobiographical
+    narratives. The review evaluates evidence on locus coeruleus, amygdala,
+    hippocampal, and cortical mechanisms and integrates social, developmental,
+    and narrative accounts of memory. It develops future research directions
+    for intracranial and naturalistic approaches, with implications for
+    storytelling, meaning-making, narrative identity, and emotion regulation,
+    and a secondary discussion of eyewitness testimony.
   keywords:
-    - event segmentation 
+    - event segmentation
     - event boundaries
     - emotional arousal
     - autobiographical memory
     - autobiographical narratives
     - event selection
     - narrative construction
+    - locus coeruleus
+    - amygdala
+    - hippocampus
+    - cortical networks
+    - meaning-making
+    - narrative identity
+    - emotion regulation
+    - intracranial electrophysiology
+    - naturalistic memory
+    - eyewitness memory
     - critical review
   license: MIT
   open_access: true
