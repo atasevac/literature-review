@@ -47,7 +47,7 @@ jobs:
 
       - name: Build MyST site
         env:
-          BASE_URL: /ComputationalReviewTemplate
+          BASE_URL: /literature-review
         run: myst build --html
 
       - name: Upload Pages artifact
