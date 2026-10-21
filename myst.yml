@@ -15,7 +15,7 @@ project:
     and a secondary discussion of eyewitness testimony.
   keywords:
     - event segmentation
-    - event boundaries
+    - causal structure
     - emotional arousal
     - event structure
     - autobiographical memory
@@ -32,12 +32,7 @@ project:
     - naturalistic neuroscience
     - multimodal recording
     - intracranial EEG
-    - mobile eye tracking
-    - psychophysiology
-    - computational modeling
     - naturalistic memory
-    - eyewitness memory
-    - critical review
   license: MIT
   open_access: true
   numbering:
