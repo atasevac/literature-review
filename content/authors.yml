@@ -7,10 +7,10 @@ project:
       city: San Francisco
       state: California
       country: United States
-    - id: aind
-      name: Allen Institute for Neural Dynamics
-      city: Seattle
-      state: Washington
+    - id: utah
+      name: University of Utah
+      city: Salt Lake City
+      state: Utah
       country: United States
 
   contributors:
@@ -25,64 +25,54 @@ project:
         - Formal Analysis
       affiliations:
         - anthropic
-      first_name: Claude
-      last_name: Opus 4.6
       career_stage: AI Research Tool
       is_ai_tool: true
       credit_levels:
         - role: Investigation
           level: lead
-          description: "Searched literature databases; retrieved and extracted evidence via parallel agent delegations"
+          description: "Literature searches and extraction of evidence from research papers"
         - role: Data Curation
           level: lead
-          description: "Built structured evidence JSONs, citation_key_map, author_name_table from database APIs"
+          description: "Organization of evidence and reference metadata"
         - role: "Writing – Original Draft"
           level: lead
-          description: "Drafted all sections following scaffold, evidence packages, and style guide"
+          description: "Drafting of review sections from collected evidence"
         - role: Visualization
           level: equal
-          description: "Generated publication-quality figures from evidence data"
+          description: "Creation of figures from cited evidence"
         - role: Formal Analysis
           level: lead
-          description: "Ran blinded figure audits, blinded text criticism, and citation verification"
+          description: "Assessment of comparisons, draft content, and citation support"
       section_contributions:
         - section: all-sections
-          description: Drafted all sections from evidence packages under orchestrator constraints
+          description: "Drafting and revising review sections under human supervision"
           effort: lead
 
-    - id: jerome-lecoq
-      name: Jérôme Lecoq
+    - id: aydin-tasevac
+      name: Aydin Tasevac
       corresponding: true
-      email: jerome.lecoq@alleninstitute.org
+      email: aydin.tasevac@psych.utah.edu
       roles:
         - Conceptualization
-        - Methodology
-        - Software
         - Supervision
         - Writing – review & editing
       affiliations:
-        - aind
-      first_name: Jérôme
-      last_name: Lecoq
-      career_stage: Principal Investigator
+        - utah
+      first_name: Aydin
+      last_name: Tasevac
+      career_stage: PhD Student
       is_ai_tool: false
       credit_levels:
         - role: Conceptualization
           level: lead
-          description: Defined the review scope, framing, and evidence standards
-        - role: Methodology
-          level: lead
-          description: Designed the computational review and validation workflow
-        - role: Software
-          level: lead
-          description: Developed and maintained the review pipeline tooling
+          description: "Formulation of the research question and definition of the review scope"
         - role: Supervision
           level: lead
-          description: Supervised pipeline execution and approved phase outputs
+          description: "Direction of the review and assessment of intermediate outputs"
         - role: "Writing – Review & Editing"
           level: equal
-          description: Reviewed outputs and directed revisions
+          description: "Critical review and revision of the manuscript"
       section_contributions:
         - section: all-sections
-          description: Scoped, supervised, and approved all phase outputs
+          description: "Review planning, scientific oversight, and manuscript revision"
           effort: lead
