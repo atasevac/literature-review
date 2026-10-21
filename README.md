@@ -2,6 +2,8 @@
 
 Repository for an AI-assisted critical literature review asking: How do event segmentation and emotional arousal during an experience shape which events are included in later autobiographical narratives of that experience?
 
+The review gives event segmentation and emotional arousal equal conceptual attention, connects neural mechanisms with social and self-related processes in narrative construction, and develops provisional laboratory and naturalistic research directions. Eyewitness testimony is a secondary application.
+
 This project uses the Expert Review Pipeline v30 from [ComputationalReviewTemplate](https://github.com/AllenNeuralDynamics/ComputationalReviewTemplate).
 
 ## Pipeline Overview
@@ -46,6 +48,8 @@ equivalents before any of this runs.
 ```
 Start a comprehensive critical literature review titled: "Event Selection in Autobiographical Narratives: The Roles of Event Segmentation and Emotional Arousal"
 
+Research question: How do event segmentation and emotional arousal during an experience shape which events are included in later autobiographical narratives of that experience?
+
 GitHub Repository: https://github.com/atasevac/literature-review
 Clone it into the workspace. The files in its skills/ folder define the complete pipeline;
 nothing needs to be installed — follow the "Runtime: Claude Science" section of the orchestrator.
@@ -61,17 +65,37 @@ skills/comprev-figure-construction.md — Section writers use it for figure prod
 
 Push all outputs to this repo in Phase 20.
 
-Evidence parameters: [OPTIONAL — omit for defaults]
-- Target ≥200 papers per cluster, snowball 2 rounds
-- Saturation criterion: <2% new unique in last 100
-- Total bibliography target: ≥1000
+Scope and priorities:
+
+1. Focus on which experienced events are included, omitted, emphasized, or reorganized in later autobiographical narratives. Distinguish narrative selection from memory availability, detail, vividness, confidence, and accuracy; personally experienced events from presented stories; and selection within an experience from selection of experiences for a broader life story.
+2. Give event segmentation and emotional arousal equal conceptual attention, examining their separate contributions, shared mechanisms, and interactions across encoding, consolidation, retrieval, narration, and retelling. Consider event structure and boundaries alongside arousal intensity, duration, and change, distinguishing arousal from valence.
+3. Examine relationships among the locus coeruleus, amygdala, hippocampus, and relevant cortical networks. Evaluate LC → amygdala → hippocampus → cortex as a candidate sequence alongside direct, parallel, and reciprocal pathways. Distinguish causal interventions from associations and animal evidence from human evidence.
+4. Integrate the work of Robyn Fivush, Monisha Pasupathi, Kate McLean, and related researchers throughout the relevant evidence sections. Use these researchers as starting points rather than an exclusive author list. Address social and developmental influences on remembering, listener and audience effects, storytelling goals, autobiographical reasoning, meaning-making, narrative identity, self-continuity, and emotion regulation.
+5. Integrate relevant theories, models, and explanatory accounts throughout the review, comparing their predictions and using unresolved differences to motivate future studies.
+6. Develop evidence-based future directions connecting event segmentation and emotional arousal, separately and jointly, to later narrative inclusion, omission, and emphasis. Treat the approaches below as provisional starting points, and consider alternative paradigms, tasks, manipulations, and experimental designs suited to the research question and available methods. For laboratory approaches, propose studies with epilepsy patients undergoing clinical intracranial monitoring, using continuous iEEG recording with the possibility of electrical stimulation of multiple implanted regions. Potential stimuli include movies and videos of first-person experiences, presented on computer screens or potentially in immersive VR. Include narrative elicitation alongside other memory assessments.
+
+   For naturalistic approaches, propose experiments involving approximately 11–19 participants with responsive neurostimulation (RNS) implants and medial temporal lobe electrodes, with neural recordings synchronized to mobile eye-tracking, first-person video, audio, GPS, accelerometry, and autonomic physiology during freely paced exploration of aquariums, arboretums, or museums across approximately 2–4 days. Recording from the same channels during exploration and subsequent memory tests is expected to be feasible. A provisional plan is for participants to retrospectively segment their own videos after memory testing, with independent observers providing additional normative segmentation measures for each video. Consider paired visits involving independent exploration and experience-sharing conversations during the day, at day’s end, or the following day, including their potential influence on subsequent remembering and narration. The specific paradigms, narrative and memory assessments, retention intervals, procedure order, conversation conditions, and randomization remain open; propose alternatives and explain their scientific value and feasibility.
+7. Include a brief discussion of eyewitness testimony, emphasizing omission, reconstruction, reporting conditions, and distinctions among narrative coherence, confidence, and accuracy.
+
+Evidence parameters:
+- min_papers_per_cluster: 70
+- saturation_criterion: null
+- snowball_rounds: 2
+- total_bibliography_target: null
+
+Search across cognitive neuroscience, computational cognitive neuroscience, cognitive psychology, causal cognition, experimental psychology, and personality, social, and developmental psychology as appropriate. Include relevant theoretical and qualitative contributions alongside quantitative studies.
 
 Table of Contents:
 1. Introduction
-2. [Your Section 2]
-3. [Your Section 3]
-...
-N. Conclusion
+2. Event segmentation and Memory
+3. Emotional Arousal and Memory
+4. Neural mechanisms: LC, amygdala, hippocampus, and cortical networks
+5. Interactions Between Event segmentation and Emotional Arousal
+6. Remembering, Reconstructing, and Narrating 
+7. An Integrated Account of Event Selection in Autobiographical Narratives
+8. Limitations, Conflicting Evidence, and Open Questions 
+9. Future Directions and Implications
+10. Conclusion
 ```
 
 6. The pipeline populates `content/`, `evidence/`, `figures/`, and `provenance/`
