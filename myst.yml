@@ -17,6 +17,7 @@ project:
     - event segmentation
     - event boundaries
     - emotional arousal
+    - event structure
     - autobiographical memory
     - autobiographical narratives
     - event selection
@@ -28,7 +29,12 @@ project:
     - meaning-making
     - narrative identity
     - emotion regulation
-    - intracranial electrophysiology
+    - naturalistic neuroscience
+    - multimodal recording
+    - intracranial EEG
+    - mobile eye tracking
+    - psychophysiology
+    - computational modeling
     - naturalistic memory
     - eyewitness memory
     - critical review
