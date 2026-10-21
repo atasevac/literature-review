@@ -1,8 +1,8 @@
-# Computational Review Template
+# Event Selection in Autobiographical Narratives: The Roles of Event Segmentation and Emotional Arousal
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21213212.svg)](https://doi.org/10.5281/zenodo.21213212)
+Repository for an AI-assisted critical literature review asking: How do event segmentation and emotional arousal during an experience shape which events are included in later autobiographical narratives of that experience?
 
-Template repository for producing comprehensive AI-assisted critical literature reviews using the Expert Review Pipeline v30.
+This project uses the Expert Review Pipeline v30 from [ComputationalReviewTemplate](https://github.com/AllenNeuralDynamics/ComputationalReviewTemplate).
 
 ## Pipeline Overview
 
@@ -28,7 +28,7 @@ The *protocol* (phases, gates, information barriers, validator checks) is portab
 orchestration calls are not, so an agent on another platform must map them to its own
 equivalents before any of this runs.
 
-1. **Create a new repo** from this template (Use this template → Create a new repository)
+1. **For a new review, create a repository** from [the original ComputationalReviewTemplate](https://github.com/AllenNeuralDynamics/ComputationalReviewTemplate) using Use this template → Create a new repository.
 2. **Make the new repo yours.** Six files carry this template's identity, and a review that
    leaves them untouched publishes the template's DOI, copyright and links as its own:
    - `myst.yml` — `title`, `description`, `keywords`, the `github:` URL, and `site.title` / `site.nav` GitHub URL
@@ -36,7 +36,7 @@ equivalents before any of this runs.
    - `content/authors.yml` — real author names and affiliations (Phase 20V fails on placeholders)
    - `README.md` — replace or delete the DOI badge and the How to Cite block; both point at
      *this template's* Zenodo record, not your review
-   - `LICENSE` — the copyright holder
+   - `LICENSE` — preserve the original template copyright and MIT license notices; add a separate notice for your own contributions where appropriate
    - `.github/ISSUE_TEMPLATE/config.yml` — add your own contact link if you want one
 3. **Enable GitHub Pages**: Settings → Pages → Source: **GitHub Actions**. Creating a repo from
    a template does not enable it, and the deploy job fails without it.
@@ -44,9 +44,9 @@ equivalents before any of this runs.
 5. **Start a new session** and paste your review prompt:
 
 ```
-Start a comprehensive critical literature review titled: "[YOUR TITLE]"
+Start a comprehensive critical literature review titled: "Event Selection in Autobiographical Narratives: The Roles of Event Segmentation and Emotional Arousal"
 
-GitHub Repository: https://github.com/[YOUR-ORG]/[YOUR-REPO]
+GitHub Repository: https://github.com/atasevac/literature-review
 Clone it into the workspace. The files in its skills/ folder define the complete pipeline;
 nothing needs to be installed — follow the "Runtime: Claude Science" section of the orchestrator.
 
@@ -232,9 +232,9 @@ what produced it rather than what someone typed.
 
 MIT
 
-## How to Cite
+## Template attribution
 
-If you use this template in your research, please cite:
+This review uses the ComputationalReviewTemplate software. The citation and DOI below identify that software template, not this review:
 
 ```bibtex
 @software{lecoq_2026_21213212,
