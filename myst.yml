@@ -2,14 +2,19 @@ version: 1
 extends:
   - content/authors.yml
 project:
-  title: "REVIEW TITLE — Update in myst.yml"
+  title: "Event Selection in Autobiographical Narratives: The Roles of Event Segmentation and Emotional Arousal"
   subtitle: A Reproducible Computational Review
   description: >
-    Update this description for your review topic.
+    How do event segmentation and emotional arousal during an experience shape which events are included in later autobiographical narratives of that experience?
   keywords:
-    - neuroscience
+    - event segmentation 
+    - event boundaries
+    - emotional arousal
+    - autobiographical memory
+    - autobiographical narratives
+    - event selection
+    - narrative construction
     - critical review
-    - reproducible research
   license: MIT
   open_access: true
   numbering:
@@ -25,7 +30,7 @@ project:
     - https://github.com/AllenNeuralDynamics/AuthorshipExtractor/releases/latest/download/authorship-plugin.mjs
     - plugins/evidence-explorer-plugin.mjs
     - plugins/figure-lightbox-plugin.mjs
-  github: https://github.com/AllenNeuralDynamics/ComputationalReviewTemplate
+  github: https://github.com/atasevac/literature-review
   bibliography:
     - content/references.bib
   toc:
@@ -46,7 +51,7 @@ project:
       template: ./latex/template
 site:
   template: book-theme
-  title: "Computational Review"
+  title: "Autobiographical Narrative Review"
   nav:
     - title: GitHub
-      url: https://github.com/AllenNeuralDynamics/ComputationalReviewTemplate
+      url: https://github.com/atasevac/literature-review
